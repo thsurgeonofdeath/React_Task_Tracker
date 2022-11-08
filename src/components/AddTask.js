@@ -33,7 +33,7 @@ const AddTask = ({onAdd}) => {
         value={reminder} onChange={(e) => setReminder(e.currentTarget.checked)}/>
       </div>
 
-      <input type='submit' value='save task' className='btn btn-block' style={{backgroundColor : 'coral'}}/>
+      <input type='submit' value='save task' className='btn btn-block' style={{backgroundColor : 'black'}}/>
     </form>
   )
 }
